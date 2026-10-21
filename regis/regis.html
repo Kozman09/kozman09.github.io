@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ka">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>რეგისტრაცია</title>
+    </head>
+    <main>
+
+        <!-- REGISTRATION SECTION -->
+
+        <section id="register">
+
+            <h2>Create an Account</h2>
+
+            <form action="/register" method="POST">
+
+                <!-- FIRST NAME -->
+
+                <div>
+
+                    <label for="first-name">
+                        First Name:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="first-name"
+                        name="firstName"
+                        placeholder="Enter your first name"
+                        autocomplete="given-name"
+                        minlength="2"
+                        maxlength="50"
+                        required
+                    >
+
+                </div>
+
+                <br>
+
+
+                <!-- LAST NAME -->
+
+                <div>
+
+                    <label for="last-name">
+                        Last Name:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="last-name"
+                        name="lastName"
+                        placeholder="Enter your last name"
+                        autocomplete="family-name"
+                        minlength="2"
+                        maxlength="50"
+                        required
+                    >
+
+                </div>
+                <br>
+<!-- BIRTH DATE -->
+
+<div>
+
+    <label for="birth-date">
+        Birth Date:
+    </label>
+
+    <input
+        type="date"
+        id="birth-date"
+        name="birthDate"
+        min="1930-01-01"
+        max="2008-12-31"
+        required
+    >
+
+</div>
+
+<br>
+
+                <!-- EMAIL -->
+
+                <div>
+
+                    <label for="register-email">
+                        Email:
+                    </label>
+
+                    <input
+                        type="email"
+                        id="register-email"
+                        name="email"
+                        placeholder="Enter your email"
+                        autocomplete="email"
+                        required
+                    >
+
+                </div>
+
+                <br>
+
+
+                <!-- PASSWORD -->
+
+                <div>
+
+                    <label for="register-password">
+                        Password:
+                    </label>
+
+                    <input
+                        type="password"
+                        id="register-password"
+                        name="password"
+                        placeholder="Create a password"
+                        autocomplete="new-password"
+                        minlength="8"
+                        required
+                    >
+
+                </div>
+
+                <br>
+
+
+                <!-- CONFIRM PASSWORD -->
+
+                <div>
+
+                    <label for="confirm-password">
+                        Confirm Password:
+                    </label>
+
+                    <input
+                        type="password"
+                        id="confirm-password"
+                        name="confirmPassword"
+                        placeholder="Confirm your password"
+                        autocomplete="new-password"
+                        minlength="8"
+                        required
+                    >
+
+                </div>
+
+                <br>
+
+
+                <!-- TERMS AND CONDITIONS -->
+
+                <div>
+
+                    <input
+                        type="checkbox"
+                        id="terms"
+                        name="terms"
+                        value="accepted"
+                        required
+                    >
+
+                    <label for="terms">
+                        I agree to the
+                        <a href="terms.html">
+                            Terms and Conditions
+                        </a>
+                    </label>
+
+                </div>
+
+                <br>
+
+
+                <!-- REGISTER BUTTON -->
+
+                <button type="submit">
+                    Create Account
+                </button>
+
+                <button type="reset">
+                    Clear Form
+                </button>
+
+            </form>
+
+            <p>
+                Already have an account?
+                <a href="../recipes/xinkali.html">
+                    Log In
+                </a>
+            </p>
+
+        </section>
+    </main>

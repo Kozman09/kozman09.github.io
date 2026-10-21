@@ -65,9 +65,9 @@
                 <li>No parties</li>
                 <li>Check-out before 11:00</li>
                 </ul>
-        <a href="tel:+995598000151">call us</a>
-        <a href="mailto:g.kozmanidze1@gmail.com">mail us</a>
-        <a href="mailto:g.kozmanidze1@gmail.com">mail us</a>
+                 <a href="tel:+995598000151">call us</a>
+                 <a href="mailto:g.kozmanidze1@gmail.com">mail us</a>
+                <a href="mailto:g.kozmanidze1@gmail.com">mail us</a>
             </section>
 
         </main>
@@ -75,316 +75,14 @@
         <iframe  class="youtube-video" src="https://www.youtube.com/embad/D0UnqGm_miA"  title="Check-in instructions" allowfullscreen></iframe>
         <video controls  width="300" height="300"> <source src="../video/video.m4" type="video/mp4"></video>
 
-        <form>  
-            <label for="email"> Email  </label> 
-            <input    id="email"    type="email" placeholder="write your email" >  
-            <br><label for="password"> Password </label>
-            <input    id="password" type="password" placeholder="password">
-            <button type="submit"> Register/login  </button>
-        </form>
 
 
-        <form action="/register" method="post">
+         <header>
 
-    <h2>Create Account</h2>
+                 <h1>Welcome to Our Website</h1>
 
-    <fieldset>
-
-        <legend>Personal Information</legend>
-
-        <label for="name">
-            Full Name
-        </label>
-
-        <input
-            id="name"
-            name="name"
-            type="text"
-            placeholder="Write your full name"
-            autocomplete="name"
-            minlength="3"
-            maxlength="50"
-            required
-        >
-
-        <br><br>
-
-        <label for="email">
-            Email
-        </label>
-
-        <input
-            id="email"
-            name="email"
-            type="email"
-            placeholder="Write your email"
-            autocomplete="email"
-            required
-        >
-
-        <br><br>
-
-        <label for="password">
-            Password
-        </label>
-
-        <input
-            id="password"
-            name="password"
-            type="password"
-            placeholder="Create password"
-            autocomplete="new-password"
-            minlength="8"
-            required
-        >
-
-        <br><br>
-
-        <label for="confirm-password">
-            Confirm Password
-        </label>
-
-        <input
-            id="confirm-password"
-            name="confirmPassword"
-            type="password"
-            placeholder="Confirm password"
-            autocomplete="new-password"
-            minlength="8"
-            required
-        >
-
-    </fieldset>
-
-    <br>
-
-    <label for="terms">
-
-        <input
-            id="terms"
-            name="terms"
-            type="checkbox"
-            required
-        >
-
-        I agree to the Terms and Conditions
-
-    </label>
-
-    <br><br>
-
-    <button type="submit">
-        Create Account
-    </button>
-
-    <button type="reset">
-        Clear
-    </button>
-
-</form>
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <title>Register and Login</title>
-
-</head>
-
-<body>
-
-    <header>
-
-        <h1>Welcome to Our Website</h1>
-
-        <p>
-            Create your account or log in to continue.
-        </p>
-
-    </header>
-
-
-    <main>
-
-        <!-- REGISTRATION SECTION -->
-
-        <section id="register">
-
-            <h2>Create an Account</h2>
-
-            <form action="/register" method="POST">
-
-                <!-- FIRST NAME -->
-
-                <div>
-
-                    <label for="first-name">
-                        First Name:
-                    </label>
-
-                    <input
-                        type="text"
-                        id="first-name"
-                        name="firstName"
-                        placeholder="Enter your first name"
-                        autocomplete="given-name"
-                        minlength="2"
-                        maxlength="50"
-                        required
-                    >
-
-                </div>
-
-                <br>
-
-
-                <!-- LAST NAME -->
-
-                <div>
-
-                    <label for="last-name">
-                        Last Name:
-                    </label>
-
-                    <input
-                        type="text"
-                        id="last-name"
-                        name="lastName"
-                        placeholder="Enter your last name"
-                        autocomplete="family-name"
-                        minlength="2"
-                        maxlength="50"
-                        required
-                    >
-
-                </div>
-
-                <br>
-
-
-                <!-- EMAIL -->
-
-                <div>
-
-                    <label for="register-email">
-                        Email:
-                    </label>
-
-                    <input
-                        type="email"
-                        id="register-email"
-                        name="email"
-                        placeholder="Enter your email"
-                        autocomplete="email"
-                        required
-                    >
-
-                </div>
-
-                <br>
-
-
-                <!-- PASSWORD -->
-
-                <div>
-
-                    <label for="register-password">
-                        Password:
-                    </label>
-
-                    <input
-                        type="password"
-                        id="register-password"
-                        name="password"
-                        placeholder="Create a password"
-                        autocomplete="new-password"
-                        minlength="8"
-                        required
-                    >
-
-                </div>
-
-                <br>
-
-
-                <!-- CONFIRM PASSWORD -->
-
-                <div>
-
-                    <label for="confirm-password">
-                        Confirm Password:
-                    </label>
-
-                    <input
-                        type="password"
-                        id="confirm-password"
-                        name="confirmPassword"
-                        placeholder="Confirm your password"
-                        autocomplete="new-password"
-                        minlength="8"
-                        required
-                    >
-
-                </div>
-
-                <br>
-
-
-                <!-- TERMS AND CONDITIONS -->
-
-                <div>
-
-                    <input
-                        type="checkbox"
-                        id="terms"
-                        name="terms"
-                        value="accepted"
-                        required
-                    >
-
-                    <label for="terms">
-                        I agree to the
-                        <a href="terms.html">
-                            Terms and Conditions
-                        </a>
-                    </label>
-
-                </div>
-
-                <br>
-
-
-                <!-- REGISTER BUTTON -->
-
-                <button type="submit">
-                    Create Account
-                </button>
-
-                <button type="reset">
-                    Clear Form
-                </button>
-
-            </form>
-
-            <p>
-                Already have an account?
-                <a href="#login">
-                    Log In
-                </a>
-            </p>
-
-        </section>
-
+                    <p>Log in or Create your account</p>
+         </header>
 
         <hr>
 
@@ -487,50 +185,30 @@
 
                 Don't have an account?
 
-                <a href="#register">
+                <a href="../regis/regis.html">
                     Create an Account
                 </a>
 
             </p>
 
         </section>
-
-    </main>
-
-
-    <footer>
-
-        <p>
-            &copy; 2026 My Website.
-            All rights reserved.
-        </p>
-
-    </footer>
-
-</body>
-
-</html>
-
-
-
-            <footer>
-
-                <p>
-                 © 2026 Guest Guide
-                </p>
-
             </footer>
             <figure>
                 <picture>
                 <source media="(min-width: 800px)" srcset="../photos/xinkali.jpg">
                 <img src="../photos/xinkali.jpg" alt="Apartment entrance">
                 <hr>
-                <img src="../photos/xinkali.jpg"  alt="xinkali">
                 </picture>
 
                 <figcaption>Main apartment entrance</figcaption>
 
-            </figure>
+            </figure>            
+            <footer>
+
+                <p>
+                 © 2026 Guest Guide
+                </p>
+            </footer>
     </body>
 </html>
    
